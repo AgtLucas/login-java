@@ -1,4 +1,3 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -15,7 +14,7 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
+        <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
