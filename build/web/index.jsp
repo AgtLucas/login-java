@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body class="">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -22,9 +22,9 @@
         <section class="main pure-g-r">
 
             <header class="main-header pure-u-1">
-                <!--                <h1 class="logo">
-                                    <a href="#" class="logo-link">Login App</a>
-                                </h1>-->
+                <h1 class="logo">
+                    <a href="#" class="logo-link">Login App</a>
+                </h1>
             </header>
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
@@ -46,7 +46,7 @@
             
             <footer class="main-footer pure-u-1">
                 <section class="main-footer-content">
-                    <p>&copy; 2013</p>
+                    <p>&copy; 2013 - An App by Lucas Churchill</p>
                 </section>
             </footer>
 
