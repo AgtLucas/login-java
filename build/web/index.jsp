@@ -29,16 +29,16 @@
             <div class="main-content pure-u-1-3 l-centered">
                 <form class="login-form pure-form pure-form-stacked">
                         <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="Email">
+                        <input class="login-input" id="email" type="email" placeholder="Email">
 
                         <label for="password">Password</label>
-                        <input id="password" type="password" placeholder="Password">
+                        <input class="login-input" id="password" type="password" placeholder="Password">
 
 <!--                        <label for="remember" class="pure-checkbox">
                             <input id="remember" type="checkbox"> Remember me
                         </label>-->
 
-                        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+                        <button type="submit" class="login-button pure-button pure-button-primary">Login</button>
                 </form>
             </div><!-- end main-content -->
             <div class="pure-u-1-3"></div>
