@@ -19,13 +19,30 @@
         <![endif]-->
 
         <section class="main pure-g-r">
-            
+
             <header class="main-header pure-u-1">
-                <h1 class="logo">
-                    <a href="#" class="logo-link">Login App</a>
-                </h1>
+                <!--                <h1 class="logo">
+                                    <a href="#" class="logo-link">Login App</a>
+                                </h1>-->
             </header>
-            
+            <div class="main-content pure-u-1-3 pure-offset-1-3 l-centered">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Email">
+
+                        <label for="password">Password</label>
+                        <input id="password" type="password" placeholder="Password">
+
+<!--                        <label for="remember" class="pure-checkbox">
+                            <input id="remember" type="checkbox"> Remember me
+                        </label>-->
+
+                        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+                    </fieldset>
+                </form>
+            </div>
+
         </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
