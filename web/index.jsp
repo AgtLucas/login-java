@@ -9,7 +9,8 @@
         <title>App Login</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
+        <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -27,21 +28,27 @@
             </header>
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
-                <form class="login-form pure-form pure-form-stacked">
-                        <label for="email">Email</label>
-                        <input class="login-input" id="email" type="email" placeholder="Email">
+                <form method="post" class="login-form pure-form pure-form-stacked" data-pjax>
+                    <label class="login-label" for="email">Email</label>
+                    <input class="login-input" id="email" type="email" placeholder="Email">
 
-                        <label for="password">Password</label>
-                        <input class="login-input" id="password" type="password" placeholder="Password">
+                    <label class="login-label" for="password">Password</label>
+                    <input class="login-input" id="password" type="password" placeholder="Password">
 
 <!--                        <label for="remember" class="pure-checkbox">
-                            <input id="remember" type="checkbox"> Remember me
-                        </label>-->
+                        <input id="remember" type="checkbox"> Remember me
+                    </label>-->
 
-                        <button type="submit" class="login-button pure-button pure-button-primary">Login</button>
+                    <button type="submit" class="login-button pure-button pure-button-primary">Login</button>
                 </form>
             </div><!-- end main-content -->
             <div class="pure-u-1-3"></div>
+            
+            <footer class="main-footer pure-u-1">
+                <section class="main-footer-content">
+                    <p>&copy; 2013</p>
+                </section>
+            </footer>
 
         </section>
 
