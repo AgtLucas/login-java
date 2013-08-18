@@ -25,9 +25,9 @@
                                     <a href="#" class="logo-link">Login App</a>
                                 </h1>-->
             </header>
-            <div class="main-content pure-u-1-3 pure-offset-1-3 l-centered">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
+            <div class="pure-u-1-3"></div>
+            <div class="main-content pure-u-1-3 l-centered">
+                <form class="login-form pure-form pure-form-stacked">
                         <label for="email">Email</label>
                         <input id="email" type="email" placeholder="Email">
 
@@ -39,9 +39,9 @@
                         </label>-->
 
                         <button type="submit" class="pure-button pure-button-primary">Sign in</button>
-                    </fieldset>
                 </form>
-            </div>
+            </div><!-- end main-content -->
+            <div class="pure-u-1-3"></div>
 
         </section>
 
