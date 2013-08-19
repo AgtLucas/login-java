@@ -44,6 +44,7 @@
             </div><!-- end main-content -->
             <div class="pure-u-1-3"></div>
             
+            <div class="main-content-shadow pure-u-1"></div>
             <footer class="main-footer pure-u-1">
                 <section class="main-footer-content">
                     <p>&copy; 2013 - An App by Lucas Churchill</p>

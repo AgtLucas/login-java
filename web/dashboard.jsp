@@ -22,9 +22,9 @@
         <section class="main pure-g-r">
 
             <header class="main-header pure-u-1">
-                <!--                <h1 class="logo">
-                                    <a href="#" class="logo-link">Login App</a>
-                                </h1>-->
+                <h1 class="logo">
+                    <a href="#" class="logo-link">Login App</a>
+                </h1>
             </header>
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
