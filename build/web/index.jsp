@@ -1,3 +1,19 @@
+
+<%@page import="Authentication.Authentication"%>
+<%
+
+    String email = request.getParameter("email");
+    String password = request.getParameter("password");
+    
+    Authentication service = new Authentication();
+    boolean user = service.Authenticate(email, password);
+    if (user == true) {
+        session.setAttribute("email", email);
+        response.sendRedirect("dashboard.jsp");
+    }
+
+%>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -30,10 +46,10 @@
             <div class="main-content pure-u-1-3 l-centered">
                 <form method="post" class="login-form pure-form pure-form-stacked" data-pjax>
                     <label class="login-label" for="email">Email</label>
-                    <input class="login-input" id="email" type="email" placeholder="Email">
+                    <input class="login-input" name="email" id="email" type="email" placeholder="Email">
 
                     <label class="login-label" for="password">Password</label>
-                    <input class="login-input" id="password" type="password" placeholder="Password">
+                    <input class="login-input" name="password" id="password" type="password" placeholder="Password">
 
 <!--                        <label for="remember" class="pure-checkbox">
                         <input id="remember" type="checkbox"> Remember me
