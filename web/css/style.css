@@ -67,16 +67,16 @@ a {
 
 .logo {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 20px;
     text-align: center;
 }
 
 .logo-link {
-    color: #000;
+    color: #666;
 }
 
 .logo-link:hover {
-    color: #fff;
+    color: #000;
 }
 
 .login-form {
@@ -117,7 +117,6 @@ a {
 }
 
 .main-footer-content p {
-    font-family: 'Nothing You Could Do', cursive;
     text-align: center;
     color: #E5E6E8;
 }

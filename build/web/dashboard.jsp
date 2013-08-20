@@ -10,7 +10,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -22,7 +21,7 @@
         <section class="main pure-g-r">
 
             <header class="main-header pure-u-1">
-                <h1 class="logo">
+                <h1 class="logo animated tada">
                     <a href="#" class="logo-link">Login App</a>
                 </h1>
 
