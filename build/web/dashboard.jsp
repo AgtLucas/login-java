@@ -16,7 +16,9 @@
             
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
-
+                <section class=" main-dashboard">
+                    <h2>Bem vindo, <%= session.getAttribute("sessionId") %>!</h2>
+                </section>
             </div><!-- end main-content -->
             <div class="pure-u-1-3"></div>
 
