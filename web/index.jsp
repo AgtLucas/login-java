@@ -62,7 +62,7 @@
             <!--<div class="main-content-shadow pure-u-1"></div>-->
             <footer class="main-footer pure-u-1">
                 <section class="main-footer-content">
-                    <p>&copy; 2013 - An App by Lucas Churchill</p>
+                    <p>&copy; 2013 - by Lucas</p>
                 </section>
             </footer>
 
