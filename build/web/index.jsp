@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="Authentication.Authentication"%>
 <%
     String pageTitle = "App Login!";
@@ -28,14 +29,10 @@
             <div class="main-content pure-u-1-3 l-centered">
                 <form method="post" class="login-form pure-form pure-form-stacked" data-pjax>
                     <label class="login-label" for="name">Login</label>
-                    <input class="login-input" name="name" id="email" type="text" placeholder="Username">
+                    <input class="login-input" name="name" id="name" type="text" placeholder="Username">
 
                     <label class="login-label" for="password">Password</label>
                     <input class="login-input" name="password" id="password" type="password" placeholder="Password">
-
-<!--                        <label for="remember" class="pure-checkbox">
-                        <input id="remember" type="checkbox"> Remember me
-                    </label>-->
 
                     <button type="submit" class="login-button pure-button pure-button-primary">Login</button>
                 </form>
@@ -51,10 +48,7 @@
 
         </section>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <jsp:include page="includes/scripts.jsp" />
 
     </body>
 </html>

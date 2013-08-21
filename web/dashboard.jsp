@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <% if(session.getAttribute("sessionId") == null) {
         response.sendRedirect("index.jsp");
     }
@@ -17,17 +18,14 @@
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
                 <section class=" main-dashboard">
-                    <h2>Bem vindo, <%= session.getAttribute("sessionId") %>!</h2>
+                    <h2>Welcome, <%= session.getAttribute("sessionId") %>!</h2>
                 </section>
             </div><!-- end main-content -->
             <div class="pure-u-1-3"></div>
 
         </section>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <jsp:include page="includes/scripts.jsp" />
 
     </body>
 </html>
