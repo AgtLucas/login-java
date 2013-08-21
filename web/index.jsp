@@ -13,9 +13,7 @@
 
 %>
 
-<jsp:include page="includes/head.jsp" flush="true">
-<jsp: param name="pageTitle" value="<%=pageTitle%>" />
-</jsp:include>
+<jsp:include page="includes/head.jsp" />
 
     <body class="">
         <!--[if lt IE 8]>
