@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Authentication {
 
-    public boolean Authenticate(String email, String password) {
+    public boolean Authenticate(String name, String password) {
         boolean isAuthenticated = false;
         
         UserDAO dao = new UserDAO();
         ArrayList<User> Users = (ArrayList) dao.findAll();
         
         for (User u:Users) {
-            if (u.getEmail().equals(email) && (u.getPassword().equals(password))) {
+            if (u.getName().equals(name) && (u.getPassword().equals(password))) {
                 isAuthenticated = true;
                 break;
             }

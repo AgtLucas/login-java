@@ -1,34 +1,22 @@
-
 <%@page import="Authentication.Authentication"%>
 <%
-
-    String email = request.getParameter("email");
+    String pageTitle = "App Login!";
+    String name = request.getParameter("name");
     String password = request.getParameter("password");
     
     Authentication service = new Authentication();
-    boolean user = service.Authenticate(email, password);
+    boolean user = service.Authenticate(name, password);
     if (user == true) {
-        session.setAttribute("email", email);
+        session.setAttribute("sessionId", name);
         response.sendRedirect("dashboard.jsp");
     }
 
 %>
 
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>App Login</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
+<jsp:include page="includes/head.jsp" flush="true">
+<jsp: param name="pageTitle" value="<%=pageTitle%>" />
+</jsp:include>
+
     <body class="">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -36,16 +24,13 @@
 
         <section class="main pure-g-r">
 
-            <header class="main-header pure-u-1">
-                <h1 class="logo animated lightSpeedIn">
-                    <a href="#" class="logo-link">Login App</a>
-                </h1>
-            </header>
+            <jsp:include page="includes/header.jsp" />
+            
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
                 <form method="post" class="login-form pure-form pure-form-stacked" data-pjax>
-                    <label class="login-label" for="email">Email</label>
-                    <input class="login-input" name="email" id="email" type="email" placeholder="Email">
+                    <label class="login-label" for="name">Login</label>
+                    <input class="login-input" name="name" id="email" type="text" placeholder="Username">
 
                     <label class="login-label" for="password">Password</label>
                     <input class="login-input" name="password" id="password" type="password" placeholder="Password">
