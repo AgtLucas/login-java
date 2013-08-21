@@ -131,3 +131,12 @@ a {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.logout {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    color: #f3f3f3;
+    background: #666;
+}
