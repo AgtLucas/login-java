@@ -4,6 +4,7 @@
 
 var realPath = window.location.href;
 var dashboard = "http://localhost:8080/LoginApplication/dashboard.jsp";
+// var dashboard = "http://localhost:8084/LoginApplication/dashboard.jsp";
 
 if (realPath === dashboard) {
     $('.logout').show();
