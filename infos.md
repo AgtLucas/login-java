@@ -29,8 +29,21 @@
 #### Tags JSP
 
 ```java
+
+// Diretiva
 <%@ %>
+
+
+// Declarativa
+<%! %>
+
+
+// Scriptlet
 <% %>
+
+// Expressão
+<%= %>
+
 ```
 
 ### JSP vs Servlet?
