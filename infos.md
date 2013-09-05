@@ -46,6 +46,9 @@
 
 ```
 
+### Objetos implícitos
+- São instanciados pelo container
+
 ### JSP vs Servlet?
 
 ---
