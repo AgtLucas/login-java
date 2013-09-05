@@ -26,6 +26,13 @@
 - Java Server Page.
 - Tecnologia de páginas dinâmicas em Java
 
+#### Tags JSP
+
+```java
+<%@ %>
+<% %>
+```
+
 ### JSP vs Servlet?
 
 ---
