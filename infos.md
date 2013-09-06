@@ -55,6 +55,18 @@
 ### Objetos implícitos
 - São instanciados pelo container.
 
+| Objetos                   | Descrição                                                           |
+|--------------------------- | ------------------------------------------------------------- |
+| Out                          | Método do tipo Writter, utilizado para exibir dados na página. exemplo: `out.println(“Ola Mundo”);`|
+| Request                  | Objeto que permite acesso a parâmetros enviados pelo cliente, pelo método HTTP (GET ou POST). |
+| Response               | Permite acesso à resposta que será enviada ao usuário |
+| Session                  | Acesso a sessões |
+| application | Objeto que referencia a classe ServletContext e permite que sejam armazenados valores, ao quais serão compartilhados por toda aplicação, por meio dos métodos setAttribute e getAttribute.|
+| Config | Objeto utilizado para a leitura de parâmetros de inicialização.|
+| exception | Permite que as páginas JSP sejam definidas como páginas de erros. |
+| pageContext | Objeto que é um ponto de acesso a muitos atributos da página |
+| Page | Semelhante a referência `this` utilizada em classes java. |
+
 ### JSP vs Servlet?
 
 ### O que é um Java Bean?
@@ -84,6 +96,7 @@
     ]
 }
 ```
+
 
 ---
  TODO
