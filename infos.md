@@ -1,3 +1,7 @@
+### DAO:
+- DAO (Data Access Object): é um padrão de projeto que abstrai e encapsula os mecanismos de acesso a dados escondendo os detalhes da execução da origem dos dados.
+
+
 ```html
 <form action="phpisbetterthanjava.php" method="post">
   <label for="name">Name:</label>
