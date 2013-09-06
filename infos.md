@@ -116,6 +116,7 @@
 ### Servlet
 - Busca e atualiza o model da página
 - Servlets são classes Java, desenvolvidas de acordo com uma estrutura bem definida, e que, quando instaladas junto a um Servidor que implemente um Servlet Container (um servidor que permita a execução de Servlets, muitas vezes chamado de Servidor de Aplicações Java), podem tratar requisições recebidas de clientes.
+- 3 fases: inicialização, atendimento de requisições e finalização.
 
 ### O que é um Java Bean?
 - Java Object Notation.
