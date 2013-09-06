@@ -113,8 +113,9 @@
 | pageContext | Objeto que é um ponto de acesso a muitos atributos da página |
 | Page | Semelhante a referência `this` utilizada em classes java. |
 
-### Servlet?
+### Servlet
 - Busca e atualiza o model da página
+- Servlets são classes Java, desenvolvidas de acordo com uma estrutura bem definida, e que, quando instaladas junto a um Servidor que implemente um Servlet Container (um servidor que permita a execução de Servlets, muitas vezes chamado de Servidor de Aplicações Java), podem tratar requisições recebidas de clientes.
 
 ### O que é um Java Bean?
 - Java Object Notation.
