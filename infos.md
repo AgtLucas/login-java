@@ -59,18 +59,42 @@
 ```java
 
 // Diretiva
-<%@ %>
+// Elementos que permitem enviar mensagens para o container JSP e que 
+// afetam como são compiladas as páginas JSP. 
+// As principais diretivas são page, include e taglib.
+// Exemplo:
+<%@ include file=”header.jsp” %>
 
 
 // Declarativa
-<%! %>
+// Nas declarações JSP, pode-se colocar qualquer coisa que seja válida pôr em uma classe. Por
+// exemplo, definições de campos , definições de métodos, definições de classes internas, blocos
+// estáticos de inicialização.Na prática, porém, usam-se declarações para declarar e inicializar
+// campos, bem como para implementar métodos.
+// Como as declarações não geram saídas, elas comumente são usadas em conjunto com
+// expressões ou scriptlets.
+<%! campo ou método %>
 
 
 // Scriptlet
-<% %>
+// Usa-se scriptlet para fazer algo mais complexo do que simplesmente produzir 
+// o valor de uma expressão. Por exemplo, para executar código que contenha 
+// iterações (loops), decisões ou outras operações complexas como escrever 
+// para o registro do servidor (server log) e produzir HTML condicionalmente.
+// Scriptlets também têm acesso às variáveis definidas automaticamente como 
+// request, response, session, out.
+// O uso excessivo de scriptlets pode levar a páginas JSP que são difíceis de 
+// entender e manter.
+// Por isso, deve-se restringir seu uso à geração de listas ou tabelas de dados 
+// que resultam de consultas a bancos de dados.
+<% código Java %>
 
 // Expressão
-<%= %>
+// Usam-se expressões para inserir valores na página enviada ao cliente.
+// Quando uma página é requisitada, a expressão é avaliada, convertida para 
+// uma string e inserida na página. Ou seja, expressões são avaliadas em 
+// tempo de execução.
+<%= expressão Java %>
 
 ```
 
