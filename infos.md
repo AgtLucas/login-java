@@ -55,6 +55,21 @@
 - Getter & Setter.
 - Método construtor default.
 
+### JSON
+- JavaScript Object Notation
+
+```javascript
+// M27 Infantry Automatic Rifle
+{
+  "name": "M27 IAR",
+  "type": "Squad Automatic Rifle",
+  "designer": "H&K",
+  "designed": "2008",
+  "weight": "3.6Kg empty",
+  "cartridge": "5.56x45mm NATO"
+}
+```
+
 ---
  TODO
 
