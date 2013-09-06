@@ -63,7 +63,7 @@
 // afetam como são compiladas as páginas JSP. 
 // As principais diretivas são page, include e taglib.
 // Exemplo:
-<%@ include file=”header.jsp” %>
+<%@ include file="header.jsp" %>
 
 
 // Declarativa
