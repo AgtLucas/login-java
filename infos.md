@@ -1,6 +1,12 @@
 ### JEE: 
 - Especificação para construir aplicações corporativas (enterprise), de "alta" escalabilidade, com segurança, etc...
 
+### JRE: 
+- Java Runtime Edition:  Máquina virtual para rodar o binário do java.
+
+### JSE: 
+- Java Standart Edition: Ambiente de desenvolvimento do computador.
+
 ### Container:
 - Ambiente de execução
 - Para rodar dentro de um container, precisa estender alguém que conheça o container
