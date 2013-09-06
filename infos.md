@@ -97,6 +97,20 @@
 }
 ```
 
+---
+
+### O que é internet?
+- É um conjunto de redes de computadores que utilizam o protocolo TCP/IP para comunicar entre si.
+
+### O que é www?
+- É uma aplicação criada para permitir o compartilhamento de arquivos (HTML e outros), tendo o  navegador como ferramenta de acesso a web.
+
+#### Resumindo, Internet é rede de computadores. WWW é uma aplicação para rodar nessas redes.
+
+---
+
+# Sessions:
+- Sessions permite definir desde de parâmetros, configurações e objetos que são persistidas durante toda a sessão do usuário. Uma sessão é única  por browser e IP. Logo cada sessão persiste suas próprias definições...
 
 ---
  TODO
