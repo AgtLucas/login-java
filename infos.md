@@ -109,7 +109,7 @@
 
 ---
 
-# Sessions:
+### Sessions:
 - Sessions permite definir desde de parâmetros, configurações e objetos que são persistidas durante toda a sessão do usuário. Uma sessão é única  por browser e IP. Logo cada sessão persiste suas próprias definições...
 
 ---
