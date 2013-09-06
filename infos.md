@@ -1,3 +1,18 @@
+```html
+<form action="phpisbetterthanjava.php" method="post">
+  <label for="name">Name:</label>
+  <input type="text" name="name" class="login-input" id="name"/>
+
+  <label for="password">Password:</label>
+  <input type="password" name="password" class="login-input" id="password" />
+
+  <input type="submit" value="Go!" />
+</form>
+```
+
+
+---
+
 ### JEE: 
 - Especificação para construir aplicações corporativas (enterprise), de "alta" escalabilidade, com segurança, etc...
 
