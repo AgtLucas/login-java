@@ -11,7 +11,7 @@
 - Quando uma página JSP é construída, implicitamente você está estendendo um servelet, pois a página JSP quando é executada pela primeira vez ela é transformada em um servlet.
 - O frontend da aplicação web.
 
-### EJSs: Enterprise Java Bean 
+### EJBs: Enterprise Java Bean 
 
 ### 3 camadas web
 - HTML: Estruturação do conteúdo.
@@ -52,6 +52,7 @@
 ### JSP vs Servlet?
 
 ### O que é um Java Bean?
+- Java Object Notation.
 - Getter & Setter.
 - Método construtor default.
 
@@ -67,6 +68,14 @@
   "designed": "2008",
   "weight": "3.6Kg empty",
   "cartridge": "5.56x45mm NATO"
+}
+
+// Alunos...
+{ "Aluno" : [ 
+        { "nome": "João", "notas": [ 8, 9, 7 ]  },
+        { "nome": "Maria", "notas": [ 8, 10, 7 ] },
+        { "nome": "Pedro", "notas": [ 10, 10, 9 ] } 
+    ]
 }
 ```
 
