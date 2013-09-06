@@ -89,7 +89,8 @@
 | pageContext | Objeto que é um ponto de acesso a muitos atributos da página |
 | Page | Semelhante a referência `this` utilizada em classes java. |
 
-### JSP vs Servlet?
+### Servlet?
+- Busca e atualiza o model da página
 
 ### O que é um Java Bean?
 - Java Object Notation.
