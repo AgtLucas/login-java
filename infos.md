@@ -6,7 +6,7 @@
 ### Exemplo formulário...
 
 ```html
-<form action="phpisbetterthanjava.php" method="post">
+<form action="php-is-better-than-java.php" method="post">
   <label for="name">Name:</label>
   <input type="text" name="name" class="login-input" id="name"/>
 
