@@ -3,3 +3,4 @@ build/web/.DS_Store
 .DS_Store
 build/.DS_Store
 src/java/Authentication/MyConnection.java
+build/web/WEB-INF/classes/Authentication/MyConnection.class
