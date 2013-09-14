@@ -1,16 +1,16 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="Authentication.Authentication"%>
 <%
-    String pageTitle = "App Login!";
-    String name = request.getParameter("name");
-    String password = request.getParameter("password");
+    // String pageTitle = "App Login!";
+    // String name = request.getParameter("name");
+    // String password = request.getParameter("password");
     
-    Authentication service = new Authentication();
-    boolean user = service.Authenticate(name, password);
-    if (user == true) {
-        session.setAttribute("sessionId", name);
-        response.sendRedirect("dashboard.jsp");
-    }
+    // Authentication service = new Authentication();
+    // boolean user = service.Authenticate(name, password);
+    // if (user == true) {
+    //    session.setAttribute("sessionId", name);
+    //    response.sendRedirect("dashboard.jsp");
+    // }
 
 %>
 
@@ -27,7 +27,7 @@
             
             <div class="pure-u-1-3"></div>
             <div class="main-content pure-u-1-3 l-centered">
-                <form method="post" class="login-form pure-form pure-form-stacked" data-pjax>
+                <form action="AuthenticationService" method="post" class="login-form pure-form pure-form-stacked" data-pjax>
                     <label class="login-label" for="name">Login</label>
                     <input class="login-input" name="name" id="name" type="text" placeholder="Username">
 
