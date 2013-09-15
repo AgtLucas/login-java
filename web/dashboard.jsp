@@ -1,7 +1,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<% if(session.getAttribute("sessionId") == null) {
-        response.sendRedirect("index.jsp");
-    }
+<% 
+   // if(session.getAttribute("sessionId") == null) {
+   //     response.sendRedirect("index.jsp");
+   // }
 %>
 
 <jsp:include page="includes/head.jsp" />
