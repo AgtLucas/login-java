@@ -1,2 +1,3 @@
-login-java
-==========
+# TODO:
+- JSF
+- Hibernate
